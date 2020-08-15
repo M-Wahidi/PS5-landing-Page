@@ -1,152 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PS5 Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <script defer src="app.js"></script>
 </head>
-<body>
-    <header id="header">
-    
-        <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/1280px-Playstation_logo_colour.svg.png" alt="">
-    
-            <nav id="nav-bar">
-                <ul>
-                    <li><a class="nav-link" href="#about">About</a></li>
-                    <li><a class="nav-link" href="#fetures">Fetures</a></li>
-                    <li><a class="nav-link" href="#games">Games</a></li>
-                    <li><a class="nav-link" href="#Price">Price</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div id="about">
-            <img class="console"
-                src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-group-hardware-image-block-01-en-11jun20?$1600px$"
-                alt="console">
+<header>
+    <div class="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/1280px-Playstation_logo_colour.svg.png"
+            alt="logo">
+    </div>
+
+    <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+    <nav class="nav-links">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="#fetures">About</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#Price">Price</a></li>
+        </ul>
+    </nav>
+</header>
+<div id="about">
+    <img class="console"
+        src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-group-hardware-image-block-01-en-11jun20?$1600px$"
+        alt="console">
+</div>
+<div class="info">
+    <h1>Play Has No Limits™</h1>
+    <p>Experience lightning fast loading with an ultra-high speed SSD, deeper immersion with support for haptic
+        feedback, adaptive triggers and 3D Audio, and an all-new generation of incredible PlayStation® games. </p>
+</div>
+<div id="fetures">
+    <h1>Lightning speed </h1>
+    <p>Harness the power of a custom CPU, GPU, and SSD with Integrated I/O that rewrite the rules of what a
+        PlayStation console can do.</p>
+    <h1>Stunning games</h1>
+    <p>Marvel at incredible graphics and experience new PS5™ features.</p>
+    <h1>Breathtaking immersion </h1>
+    <p>Discover a deeper gaming experience with support for haptic feedback, adaptive triggers and 3D Audio
+        technology.</p>
+</div>
+
+<div id="games-trailer">
+    <iframe src="https://www.youtube.com/embed/RkC0l4iekYo" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div id="games">
+
+    <div class="game">
+        <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-marvel-spiderman-miles-morales-video-thumb-01-en-11jun20?$1600px$"
+            alt="spider-man">
+        <h1>Marvel's Spider-Man: Miles Morales</h1>
+        <p>Experience the rise of Miles Morales as the new hero masters incredible, explosive new powers to become
+            his own Spider-Man</p>
+    </div>
+
+    <div class="game">
+        <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-horizon-forbidden-west-video-thumb-01-en-11jun20?$1600px$"
+            alt="horizon zero dawn">
+        <h1>Horizon Forbidden West</h1>
+        <p>Join Aloy as she braves the Forbidden West - a majestic but dangerous frontier that conceals mysterious
+            new threats.</p>
+    </div>
+
+    <div class="game">
+        <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-ratchet-and-clank-rift-apart-video-thumb-01-en-11jun20?$1600px$"
+            alt="ratchet and clanck">
+        <h1>Ratchet & Clank: Rift Apart</h1>
+        <p>Blast your way through an interdimensional adventure with Ratchet and Clank.</p>
+    </div>
+
+
+    <div class="game">
+        <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-gt7-video-thumb-01-en-11jun20?$1600px$" alt="gt7">
+        <h1>Gran Turismo 7</h1>
+        <p>Gran Turismo™ 7 builds on 22 years of experience to bring you the best features from the history of the
+            franchise.</p>
+    </div>
+
+
+    <div class="game">
+        <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-returnal-video-thumb-01-en-11jun20?$1600px$"
+            alt="Returnal">
+        <h1>Returnal</h1>
+        <p>Break the cycle of chaos on an always changing alien planet in this third-person roguelike shooter.</p>
+    </div>
+
+    <div class="game">
+        <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-sackboy-a-big-adventurel-video-thumb-01-en-11jun20?$1600px$"
+            alt="Sackboy A Big Adventure">
+        <h1>Sackboy A Big Adventure</h1>
+        <p>Take Sackboy on an epic 3D platforming adventure with your friends.</p>
+    </div>
+</div>
+
+<div id="Price">
+    <div class="price-column">
+        <img src="https://images.assettype.com/bloombergquint/2020-06/8a353f5f-5d94-4731-b776-fac11a31f37e/1000x_1.jpg"
+            alt="ps5 normal edition">
+        <h1>PS5 CD Edition inculde</h1>
+        <span>Console</span>
+        <span>Dual Sense Controller</span>
+        <span>USB C Charger</span>
+        <span>Manual</span>
+
+        <div class="tag">
+            <h1>Price:499$</h1>
+            <input type="button" value="Buy">
         </div>
-        <div class="info">
-            <h1>Play Has No Limits™</h1>
-            <p>Experience lightning fast loading with an ultra-high speed SSD, deeper immersion with support for haptic
-                feedback, adaptive triggers and 3D Audio, and an all-new generation of incredible PlayStation® games. </p>
+    </div>
+
+
+    <div class="price-column">
+        <img src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2020/06/sony-ps5-1591945309.jpg"
+            alt="ps5 digital edition">
+        <h1>PS5 Digital Edition inculde</h1>
+        <span>Console</span>
+        <span>Dual Sense Controller</span>
+        <span>USB C Charger</span>
+        <span>Manual</span>
+        <div class="tag">
+            <h1>Price:399$</h1>
+            <input type="button" value="Buy">
         </div>
-        <div id="fetures">
-            <h1>Lightning speed </h1>
-            <p>Harness the power of a custom CPU, GPU, and SSD with Integrated I/O that rewrite the rules of what a
-                PlayStation console can do.</p>
-            <h1>Stunning games</h1>
-            <p>Marvel at incredible graphics and experience new PS5™ features.</p>
-            <h1>Breathtaking immersion </h1>
-            <p>Discover a deeper gaming experience with support for haptic feedback, adaptive triggers and 3D Audio
-                technology.</p>
+    </div>
+
+    <div class="price-column">
+        <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-group-hardware-image-block-01-en-11jun20?$1600px$"
+            alt="ps5 Delux edition">
+        <h1>PS5 Delux Edition inculde</h1>
+        <span>Console</span>
+        <span>Dual Sense Controller</span>
+        <span>3D Sound Heaset</span>
+        <span> Sensour Camera</span>
+        <span>Magic Remote</span>
+        <span>USB C Charger</span>
+        <span>Manual</span>
+        <div class="tag delux">
+            <h1 class="delux">Price:649$</h1>
+            <input type="button" value="Buy">
         </div>
-    
-        <div id="games-trailer">   
-            <iframe  src="https://www.youtube.com/embed/RkC0l4iekYo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    
-        <div id="games">
-    
-            <div class="game">
-                <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-marvel-spiderman-miles-morales-video-thumb-01-en-11jun20?$1600px$"
-                    alt="spider-man">
-                <h1>Marvel's Spider-Man: Miles Morales</h1>
-                <p>Experience the rise of Miles Morales as the new hero masters incredible, explosive new powers to become
-                    his own Spider-Man</p>
-            </div>
-    
-            <div class="game">
-                <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-horizon-forbidden-west-video-thumb-01-en-11jun20?$1600px$"
-                    alt="horizon zero dawn">
-                <h1>Horizon Forbidden West</h1>
-                <p>Join Aloy as she braves the Forbidden West - a majestic but dangerous frontier that conceals mysterious
-                    new threats.</p>
-            </div>
-    
-            <div class="game">
-                <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-ratchet-and-clank-rift-apart-video-thumb-01-en-11jun20?$1600px$"
-                    alt="ratchet and clanck">
-                <h1>Ratchet & Clank: Rift Apart</h1>
-                <p>Blast your way through an interdimensional adventure with Ratchet and Clank.</p>
-            </div>
-    
-    
-            <div class="game">
-                <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-gt7-video-thumb-01-en-11jun20?$1600px$"
-                    alt="gt7">
-                <h1>Gran Turismo 7</h1>
-                <p>Gran Turismo™ 7 builds on 22 years of experience to bring you the best features from the history of the
-                    franchise.</p>
-            </div>
-    
-    
-            <div class="game">
-                <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-returnal-video-thumb-01-en-11jun20?$1600px$"
-                    alt="Returnal">
-                <h1>Returnal</h1>
-                <p>Break the cycle of chaos on an always changing alien planet in this third-person roguelike shooter.</p>
-            </div>
-    
-            <div class="game">
-                <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-sackboy-a-big-adventurel-video-thumb-01-en-11jun20?$1600px$"
-                    alt="Sackboy A Big Adventure">
-                <h1>Sackboy A Big Adventure</h1>
-                <p>Take Sackboy on an epic 3D platforming adventure with your friends.</p>
-            </div>
-        </div>
-    
-        <div id="Price">
-            <div class="price-column">
-                <img src="https://images.assettype.com/bloombergquint/2020-06/8a353f5f-5d94-4731-b776-fac11a31f37e/1000x_1.jpg"
-                    alt="ps5 normal edition">
-                <h1>PS5 CD Edition inculde</h1>
-                <span>Console</span>
-                <span>Dual Sense Controller</span>
-                <span>USB C Charger</span>
-                <span>Manual</span>
-    
-                <div class="tag">
-                    <h1>Price:499$</h1>
-                    <input type="button" value="Buy">
-                </div>
-            </div>
-    
-    
-            <div class="price-column">
-                <img src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2020/06/sony-ps5-1591945309.jpg"
-                    alt="ps5 digital edition">
-                <h1>PS5 Digital Edition inculde</h1>
-                <span>Console</span>
-                <span>Dual Sense Controller</span>
-                <span>USB C Charger</span>
-                <span>Manual</span>
-                <div class="tag">
-                    <h1>Price:399$</h1>
-                    <input type="button" value="Buy">
-                </div>
-            </div>
-    
-            <div class="price-column">
-                <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-group-hardware-image-block-01-en-11jun20?$1600px$"
-                    alt="ps5 Delux edition">
-                <h1>PS5 Delux Edition inculde</h1>
-                <span>Console</span>
-                <span>Dual Sense Controller</span>
-                <span>3D Sound Heaset</span>
-                <span> Sensour Camera</span>
-                <span>Magic Remote</span>
-                <span>USB C Charger</span>
-                <span>Manual</span>
-                <div class="tag delux">
-                    <h1 class="delux">Price:649$</h1>
-                    <input type="button" value="Buy">
-                </div>
-            </div>
-        </div>
-         <form id="form" action="https://www.freecodecamp.com/email-submit">
-         <input type="email" id="email" name="email" placeholder="Enter your email address" required>
-         <input id="submit" type="submit" value="Get Updates">
-         </form>
-        </div>
+    </div>
+</div>
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+    <input id="submit" type="submit" value="Get Updates">
+</form>
+</div>
 </body>
+
 </html>
